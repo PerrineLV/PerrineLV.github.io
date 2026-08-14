@@ -85,6 +85,36 @@
   .contact-strip a{ text-decoration:none; border-bottom:1px solid var(--ink); }
   .contact-strip a:hover{ color:var(--red); border-color:var(--red); }
 
+  .social-links{
+    display:flex;
+    gap:10px;
+    margin-top:18px;
+  }
+  .social-icon{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    background:var(--ink);
+    color:#fff;
+    text-decoration:none;
+    padding:8px 14px 8px 8px;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:13px;
+  }
+  .social-icon:hover{ background:var(--red); }
+  .social-icon .mark{
+    width:26px;
+    height:26px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:'Archivo Black', sans-serif;
+    font-size:13px;
+    flex:none;
+  }
+  .social-icon.gh .mark{ background:var(--yellow); color:var(--ink); }
+  .social-icon.gl .mark{ background:var(--blue); color:#fff; }
+
   /* ---------- MONDRIAN NAV GRID ---------- */
   .mondrian{
     display:grid;
@@ -326,6 +356,16 @@
       <a href="tel:+33681795246">06 81 79 52 46</a>
       <a href="https://www.linkedin.com/in/perrinelaunay/" target="_blank" rel="noopener">linkedin.com/in/perrinelaunay</a>
       <span>Montpellier - télétravail possible</span>
+    </div>
+    <div class="social-links">
+      <a class="social-icon gh" href="https://github.com/PerrineLV" target="_blank" rel="noopener">
+        <span class="mark">GH</span>
+        <span>github.com/PerrineLV</span>
+      </a>
+      <a class="social-icon gl" href="https://gitlab.com/PerrineLV" target="_blank" rel="noopener">
+        <span class="mark">GL</span>
+        <span>gitlab.com/PerrineLV</span>
+      </a>
     </div>
   </header>
 
