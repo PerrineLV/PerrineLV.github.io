@@ -1,5 +1,5 @@
-# CV interactif - Perrine Launay
+# CV en ligne - Perrine Launay
 
 Développeuse Full Stack (PHP/Symfony, React, React Native).
 
-**CV en ligne : https://perrinelv.github.io/**
+**Pour le visiter : https://perrinelv.github.io/**
